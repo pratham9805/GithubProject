@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "GitHub QA Bot — Production API Server",
+  "dependencies": {
+    "@pinecone-database/pinecone": "^7.2.0",
+    "axios": "^1.16.1",
+    "compression": "^1.8.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "openai": "^6.37.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
